@@ -6,9 +6,10 @@ import { ChatComponent } from './chat/chat.component';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 import { AppRoutingModule } from './app-routing.module';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
-  declarations: [AppComponent, ChatComponent],
+  declarations: [AppComponent, ChatComponent, SignUpComponent],
   providers: [],
   bootstrap: [AppComponent],
   imports: [BrowserModule, SharedModule, CoreModule, AppRoutingModule]
